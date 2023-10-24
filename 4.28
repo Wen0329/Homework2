@@ -1,0 +1,44 @@
+#include <stdio.h>
+int a;
+int b;
+float j;
+int d;
+int e;
+int f;
+int g;
+int h;
+float i;
+
+int main()
+{
+printf("如果是hourly如果是hurly worker就按1,如果是commission worker就按2\n,如果是pieceworker的話就按3：");
+scanf("%d",&f);
+switch(f)
+{
+case 1:
+ printf("輸入每小的工資：");
+ scanf("%d",&a);
+getchar;
+printf("輸入時數：：");
+scanf("%d",&b);
+if(b<=40)
+  g=a*b;
+ else
+ h=b-40;
+ g=a*b+h*a*1.5;
+ printf("總工資：%d",g);
+ break;
+ case 2:
+ printf("輸入每週的工資：：");
+ scanf("%f",&j);
+ i=250+j*0.057;
+ printf("總工資：%f",i);
+ break;
+ case 3:
+    printf("輸入piecework的固定薪水：");
+    scanf("%d",&b);
+    printf("總工資：%d",b);
+    break;
+}
+    return 0;
+}
