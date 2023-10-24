@@ -1,0 +1,24 @@
+#include <stdio.h>
+int a;
+float b;
+int c;
+float d;
+
+int main()
+{
+    printf("Enter loan principal (-1 to end)：");
+    scanf("%d",&a);
+    if(a>-1)
+    {    
+    printf("Enter interest rate:");
+    scanf("%f",&b);
+    getchar();
+    printf("Enter term of the loan in days:");
+    scanf("%d",&c);
+    getchar();
+    d=a*b*c/365;
+    printf("The interest charge is $=%.2f",d);
+    }
+
+    return 0;
+}
