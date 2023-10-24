@@ -1,0 +1,16 @@
+#include <stdio.h>
+float a=5000;
+int y;
+float b;
+int main()
+{
+    printf("輸入利率");
+    scanf("%f",&b);
+    for(y=0;y<=14;y++);
+        {
+            a=a*(1+b);
+        }
+printf("現有的錢是：%f",a);
+
+    return 0;
+}
