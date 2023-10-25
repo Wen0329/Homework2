@@ -10,7 +10,7 @@ int main()
         {
             a=a*(1+b);
         }
-printf("現有的錢是：%f",a);
+printf("現有的錢是：%.2f",a);
 
     return 0;
 }
