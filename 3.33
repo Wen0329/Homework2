@@ -8,11 +8,11 @@ int main()
         for(j=0;j<=11;j++)
         {
             if(i==0|i==2)
-                printf("*");
+                printf("+");
             if(i==1)
             {
                 if(j==0|j==11)
-                    printf("*");
+                    printf("+");
                 else
                     printf(" ");
             }
