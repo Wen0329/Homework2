@@ -26,7 +26,7 @@ int main()
         printf ("Enter credit limit：");
         scanf ("%f",&e);
         getchar();
-         printf ("account :%.2f\n",a);
+         printf ("account :%.0f\n",a);
         printf ("credit limit=%.2f\n",e);
          f=b+c-d;
         printf ("balance:%.2f\n",f);
