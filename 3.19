@@ -1,23 +1,30 @@
 #include <stdio.h>
-int a;
+
+float a;
 float b;
 int c;
 float d;
 
 int main()
 {
+    while(1)
+    {
     printf("Enter loan principal (-1 to end)：");
-    scanf("%d",&a);
+    scanf("%f",&a);
     if(a>-1)
     {    
-    printf("Enter interest rate:");
+    printf("Enter interest rate：");
     scanf("%f",&b);
     getchar();
-    printf("Enter term of the loan in days:");
+    printf("Enter tern of the loan in days：");
     scanf("%d",&c);
     getchar();
     d=a*b*c/365;
     printf("The interest charge is $=%.2f",d);
+    }
+    else if(a==-1)
+    break;
+    printf("\n");
     }
 
     return 0;
