@@ -12,6 +12,8 @@ int main()
         printf ("Enter account number (-1 to end)： ");
         scanf("%f",&a);
         getchar();
+        if(a==-1)
+            break;
         printf("Enter beginning balance：");
         scanf ("%f",&b);
         getchar();
